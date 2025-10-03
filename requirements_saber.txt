@@ -1,0 +1,20 @@
+# Additional requirements for SABER_fast integration
+# Install with: pip install -r requirements_saber.txt
+
+# Python-R interface
+rpy2>=3.4.0
+
+# Scientific computing (likely already installed)
+numpy>=1.20.0
+pandas>=1.3.0
+matplotlib>=3.3.0
+
+# Additional dependencies
+scipy>=1.7.0
+
+# R packages will be installed automatically by the integration module:
+# - devtools (for GitHub installation)
+# - SABER (from homas01123/SABER_fast)
+# - BayesianTools (MCMC dependency)  
+# - tibble (data structures)
+# - dplyr (data manipulation)
